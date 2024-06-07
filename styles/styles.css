@@ -22,7 +22,7 @@ body {
     max-width: 1600px;
     display: flex;
     flex-direction: column;
-    padding: 16px;
+    padding: 16px 25px;
     margin-bottom: 100px;
 }
 
@@ -44,7 +44,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px 0 100px;
+    margin: 50px 25px 100px;
     gap: 50px;
 }
 
@@ -137,7 +137,7 @@ button {
     justify-content: center;
     background-color: #E5E7EB;
     align-self: stretch;
-    padding: 100px 0 100px;
+    padding: 100px 25px 100px;
     gap: 20px;
 }
 
@@ -160,4 +160,40 @@ button {
     font-size: 28px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.signup-wrapper {
+    padding: 100px;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-color: #3882F6;
+    border-radius: 10px;
+    max-width: 1100px;
+    padding: 50px 125px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.signup {
+    color: white;
+    font-size: 24px;
+    font-weight: 450;
+}
+
+.signup p {
+    color: #c9c9c9;
+    font-weight: normal;
+}
+
+.banner button {
+    border: 2px solid white;
+    margin: 0;
 }
